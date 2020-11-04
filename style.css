@@ -1,0 +1,141 @@
+.body_container{
+    margin: 0 auto;
+    width: 1400px !important;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+}
+:root{
+    --main-color1: #14AFCA;
+    --second-color2: #424F57;
+}
+.first_img{
+    background-image: url(1.png);
+    width: 1400px;
+    height: 598px;
+    clip-path: polygon(-176% 0%, 100% 0%, 100% 76%, 50% 100%);
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-color: blue;
+    background-attachment: fixed;
+}
+.first_centre{
+    margin: 39px 200px 39px 200px;
+}
+.first_img_bef{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+}
+.margin{
+    margin-top: 22px;
+}
+.font_main-color{
+    color: var(--main-color1);
+}
+.first-div{
+    padding-top: 30px;
+}
+.font_36{
+    width: 1400px;
+    font-size: 36px;
+}
+.first_tree{
+    font-size: 52px;
+    width: 966px;
+    margin-top: 123px;
+}
+.d{
+    display: flex;
+    justify-content: center;
+}
+#id{
+    margin-top: 44px; 
+}
+.font-60{
+    font-size: 60px;
+}
+.font-15{
+    font-size: 15px;
+}
+.two-position{
+    display: flex;
+    justify-content: center;
+}
+.two-width{
+    width: 973px;
+    margin-top: 24px;
+}
+.font_family{
+    font-family: "Staatliches";
+}
+.font_family-two{
+    font-family: "Syne Tactile";
+}
+.font_family-tree{
+    font-family: "Vampiro One";
+}
+.font-60{
+    margin-top: 117px;
+}
+.tree_img{
+    background-image: url(Lukas.png);
+    width: 1400px;
+    height: 718px;
+    clip-path: polygon(0 0, 0 85%, 50% 93%, 100% 85%, 100% 0, 50% 8%);
+    position: relative;
+    margin-top: 31px;
+    background-attachment: fixed;
+}
+.first_img_bef{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+}
+.text-width{
+    text-align: center;
+    width: 279px;
+}
+.container-four{
+    width: 1010px;
+}
+.background_four{
+    background-image: url(5.png);
+    width: 1400px;
+    height: 598px;
+    clip-path: polygon(0 0, 0 85%, 50% 93%, 100% 85%, 100% 0, 50% 8%);
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 31px;
+    background-attachment: fixed;
+}
+.four-color{
+    color: #D3CCCC;
+}
+.four-padding{
+    margin-left: 217px;
+}
+.four-padding div:nth-child(2){
+    padding-top: 10px;
+    padding-left: 205px;
+}
+.font_30{
+    font-size: 30px;
+    width: 779px;
+    margin-left: 318px;
+}
+.footer-end{
+    margin-top: 113px;
+}
+.font-14{
+    font-size: 14px;
+}
